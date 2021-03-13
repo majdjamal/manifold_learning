@@ -1,19 +1,19 @@
 # Manifold Experiment
 
 ## Overview
-High-dimensional data can lay on manifolds. This experiment compares three different dimensionality reduction algorithms, focusing on how well they capture the manifold. The algorithms are PCA, MDS, and isomap. 
+High-dimensional data can lay on manifolds. This experiment compares three different dimensionality reduction algorithms, focusing on how well they capture the manifold. The algorithms are PCA, MDS, and isomap.
 
 ## Requirements
-This project requires packages: NumPy, SciPy, and Matplotlib 
+This project requires packages: NumPy, SciPy, and Matplotlib
 
-## Data 
+## Data
 A swiss roll will be used in this experiment. The manifold is shown in figure 1, and stored in "swiss_roll.npy"
 
 <img src="https://i.ibb.co/SnxyGT0/data.png" width="330" height="265">
 (Figure 1. A swiss roll visualized in 3D. This data is used when comparing the dimensionality reduction algorithms.)
 
 ## PCA
-Principal Component Analysis is a powerful dimensionality reduction algorithm. However, it does not capture manifolds. Figure 2 demonstrates the result when PCA is used with the swiss roll. 
+Principal Component Analysis is a powerful dimensionality reduction algorithm. However, it does not capture manifolds. Figure 2 demonstrates the result when PCA is used with the swiss roll.
 
 <img src="https://i.ibb.co/gPcdS79/pca.png" width="320" height="240">
 (Figure 2. PCA used to embed the swiss roll. The manifold is not captured.)
@@ -21,7 +21,7 @@ Principal Component Analysis is a powerful dimensionality reduction algorithm. H
 ## MDS
 Multidimensional Scaling takes us one step closer to our goal. This model captures the pattern of a manifold, as seen in Figure 3. 
 
-<img src="https://i.ibb.co/mqgmmVw/mds.png" width="320" height="240">
+<img src="https://i.ibb.co/ygT7Pnr/mds.png" width="320" height="240">
 (Figure 3. MDS used with swiss roll. It does not cature the manifold, but the pattern of it.)
 
 ## isomap
