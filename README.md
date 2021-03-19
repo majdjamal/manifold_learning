@@ -18,7 +18,7 @@ Multidimensional Scaling takes us one step closer to our goal. This model captur
 ### isomap
 Isomap is the optimal solution to capture manifolds because it considers neighborhood. Figure 2c demonstrates the result of using isomap with the swiss roll.
 
-<img src="https://i.ibb.co/Ph0Sk8H/Ska-rmavbild-2021-03-19-kl-05-47-57.png" width="850" height="300">
+<img src="https://i.ibb.co/Ph0Sk8H/Ska-rmavbild-2021-03-19-kl-05-47-57.png" width="850" height="250">
 (Figure 2. Swiss roll used with (A) PCA, (B) MDS, and (C) Isomap.)
 
 
@@ -34,6 +34,7 @@ The 14:th attributes indicate the number of legs. It stores a set of integers, [
 Isomap is used with the Zoo-data, and the result is found in figure 3.
 
 <img src="https://i.ibb.co/hf22KR9/Ska-rmavbild-2021-03-19-kl-05-35-28.png" width="650" height="400">
+(Figure 3. Isomap is used with the Zoo-dataset. Images of animals are added to make the plot more interpretable.) 
 
 ### Discussion & Conclusion
 Land animals such as Gorillas and Lions were placed to the right in the 2D-plane. Animals that live in or close to the water were placed in the center. For example, we see frogs at origo. Moving upwards, we start to see penguins and flamingos. Moving downwards, we start to see fishes such as Tuna and Dolphins. Furthermore, insects were placed to the right of the 2D-plane.  
