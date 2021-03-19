@@ -1,7 +1,7 @@
-# Manifold Experiment
+# Manifold Learning
 
 ## Overview
-High-dimensional data can lay on manifolds. This experiment compares three different dimensionality reduction algorithms, focusing on how well they capture the manifold. The algorithms are PCA, MDS, and isomap.
+High-dimensional data can lie on low-dimensional manifolds. This experiment compares three different dimensionality reduction algorithms, focusing on how well they capture a manifold. The algorithms are PCA, MDS, and isomap.
 
 ## Requirements
 This project requires packages: NumPy, SciPy, and Matplotlib
