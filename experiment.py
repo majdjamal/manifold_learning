@@ -51,9 +51,7 @@ swiss(emb_iso, c)
 # Animals
 #-=-=-=-
 
-#In progress
+iso_animals = Isomap(k_neigh = 10)
+emb_animals = iso_animals.fit_transform(x_animals)
 
-#iso_animals = Isomap(k_neigh = 10)
-#emb_animals = iso_animals.fit_transform(x_animals)
-
-#plotAnimals(emb_animals, y_animals, names, annot = True)
+plotAnimals(emb_animals, y_animals, names, theme = 'seaborn', annot = True)

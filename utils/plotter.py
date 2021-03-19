@@ -38,7 +38,7 @@ def plotAnimals(X, labels, names, theme = 'dark_background', annot = False):
 	:param theme: Theme for the plotter. Dark_background scatter points on a black background. 
 	:param annot: Bolean, to either annotate points or not. 
 	"""
-	
+
 	clr = { 	# colors for each group of animals
 	'1': 'tan', 
 	'2': 'mediumpurple', 
@@ -62,5 +62,6 @@ def plotAnimals(X, labels, names, theme = 'dark_background', annot = False):
 		
 		if annot:
 			plt.annotate(names[i], (x, y))
-
+	
+	plt.tick_params(labelleft=False, labelbottom=False, labelright=False, labeltop=False)
 	plt.show()
