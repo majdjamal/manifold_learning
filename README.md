@@ -37,7 +37,7 @@ Isomap is used with the Zoo-data, and the result is found in figure 3.
 (Figure 3. Isomap is used with the Zoo-dataset. Images of animals are added to make the plot more interpretable.) 
 
 ### Discussion & Conclusion
-Land animals such as Gorillas and Lions were placed to the right in the 2D-plane. Animals that live in or close to the water were placed in the center. For example, we see frogs at origo. Moving upwards from the origo, we start to see penguins and flamingos. Moving downwards, we start to see fishes such as Tuna and Dolphins. Furthermore, insects were placed to the right in the 2D-plane.  
+Land animals such as gorillas and lions were placed to the left in the 2D-plane. Animals that live in or close to the water were placed in the center. For example, we see frogs at origo. Moving upwards from the origo, we start to see penguins and flamingos. Moving downwards, we start to see fishes such as tuna and dolphins. Furthermore, insects were placed to the right in the 2D-plane.  
 
 
 Isomap is a powerful dimensionality reduction algorithm that is good at capturing manifolds, and the experiments confirm this.
