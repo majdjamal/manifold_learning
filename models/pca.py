@@ -34,10 +34,6 @@ class PCA:
 		"""
 		Ndim, Npts = X.shape
 
-		if dim > Ndim:
-			print("Your request is asking for larger dimensions than the original data. Adjust the dimension in your request.")
-			return 
-
 		centeredX = self.center(X)
 
 		U, _, _ = np.linalg.svd(centeredX)
